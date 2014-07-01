@@ -23,6 +23,7 @@
                     <configuration>
                         <allowSnapshots>true</allowSnapshots>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
+                        <noDeploy>true</noDeploy>
                     </configuration>
                 </plugin>
             </plugins>
