@@ -8,4 +8,10 @@
     </parent>
 
     <artifactId>child</artifactId>
+
+    <build></build>
+    <dependencies></dependencies>
+    <dependencyManagement></dependencyManagement>
+    <description></description>
+    <developers></developers>
 </project>
