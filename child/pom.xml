@@ -9,9 +9,9 @@
 
     <artifactId>child</artifactId>
 
-    <build></build>
-    <dependencies></dependencies>
-    <dependencyManagement></dependencyManagement>
-    <description></description>
-    <developers></developers>
+    <build />
+    <dependencies />
+    <dependencyManagement />
+    <version xmlns="">1.1-SNAPSHOT</version><description />
+    <developers />
 </project>
