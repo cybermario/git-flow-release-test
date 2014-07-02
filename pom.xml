@@ -40,29 +40,11 @@
                     <groupId>external.atlassian.jgitflow</groupId>
                     <artifactId>jgitflow-maven-plugin</artifactId>
                     <version>1.0-m3</version>
-                    <executions>
-                        <execution>
-                            <id>release-start</id>
-                            <goals>
-                                <goal>release-start</goal>
-                            </goals>
-                            <configuration>
-                                <autoVersionSubmodules>true</autoVersionSubmodules>
-                                <pushReleases>false</pushReleases>
-                            </configuration>
-                        </execution>
-                        <execution>
-                            <id>release-finish</id>
-                            <goals>
-                                <goal>release-finish</goal>
-                            </goals>
-                            <configuration>
-                                <autoVersionSubmodules>true</autoVersionSubmodules>
-                                <noDeploy>true</noDeploy>
-                                <pushReleases>true</pushReleases>
-                            </configuration>
-                        </execution>
-                    </executions>
+                    <configuration>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
+                        <noDeploy>true</noDeploy>
+                        <pushReleases>true</pushReleases>
+                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
