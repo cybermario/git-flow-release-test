@@ -4,7 +4,7 @@
     <parent>
         <groupId>uk.me.lukejackson.git-flow-release-test</groupId>
         <artifactId>parent</artifactId>
-        <version>1.10</version>
+        <version>1.11-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
