@@ -30,6 +30,7 @@
                     </configuration>
                     <executions>
                         <execution>
+                            <id>release-start</id>
                             <goals>
                                 <goal>release-start</goal>
                             </goals>
@@ -38,6 +39,7 @@
                             </configuration>
                         </execution>
                         <execution>
+                            <id>release-finish</id>
                             <goals>
                                 <goal>release-finish</goal>
                             </goals>
