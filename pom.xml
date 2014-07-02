@@ -5,7 +5,7 @@
     <groupId>uk.me.lukejackson.git-flow-release-test</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.1</version>
+    <version>1.2</version>
 
     <modules>
         <module>child</module>
@@ -19,7 +19,7 @@
                     <artifactId>jgitflow-maven-plugin</artifactId>
                     <version>1.0-m3</version>
                     <configuration>
-                        <allowSnapshots>true</allowSnapshots>
+                        <allowSnapshots>false</allowSnapshots>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <noDeploy>true</noDeploy>
                     </configuration>
