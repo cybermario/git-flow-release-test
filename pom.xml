@@ -5,7 +5,7 @@
     <groupId>uk.me.lukejackson.git-flow-release-test</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.6</version>
+    <version>1.7</version>
 
     <scm>
         <url>https://github.com/lukejackson/git-flow-release-test.git</url>
@@ -25,11 +25,29 @@
                     <artifactId>jgitflow-maven-plugin</artifactId>
                     <version>1.0-m3</version>
                     <configuration>
-                        <allowSnapshots>false</allowSnapshots>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <noDeploy>true</noDeploy>
-                        <pushReleases>true</pushReleases>
                     </configuration>
+                    <executions>
+                        <execution>
+                            <id>release-start</id>
+                            <goals>
+                                <goal>release-start</goal>
+                            </goals>
+                            <configuration>
+                                <pushReleases>false</pushReleases>
+                            </configuration>
+                        </execution>
+                        <execution>
+                            <id>release-finish</id>
+                            <goals>
+                                <goal>release-finish</goal>
+                            </goals>
+                            <configuration>
+                                <pushReleases>true</pushReleases>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
