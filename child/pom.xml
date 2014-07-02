@@ -5,13 +5,8 @@
         <groupId>uk.me.lukejackson.git-flow-release-test</groupId>
         <artifactId>parent</artifactId>
         <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>child</artifactId>
-
-    <build />
-    <dependencies />
-    <dependencyManagement />
-    <version xmlns="">1.1-SNAPSHOT</version><description />
-    <developers />
 </project>
