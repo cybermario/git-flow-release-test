@@ -43,6 +43,7 @@
                     <configuration>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <noDeploy>true</noDeploy>
+						<pushReleases>true</pushReleases>
                     </configuration>
                 </plugin>
             </plugins>
