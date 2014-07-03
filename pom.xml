@@ -5,7 +5,7 @@
     <groupId>uk.me.lukejackson.git-flow-release-test</groupId>
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
-    <version>1.13-SNAPSHOT</version>
+    <version>1.12</version>
 
     <scm>
         <url>https://github.com/lukejackson/git-flow-release-test.git</url>
