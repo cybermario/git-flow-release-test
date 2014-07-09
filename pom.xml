@@ -17,6 +17,14 @@
         <module>child</module>
     </modules>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.eclipseoptions</groupId>
+			<artifactId>parent</artifactId>
+			<version>2.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
     <build>
         <pluginManagement>
             <plugins>
@@ -49,4 +57,39 @@
             </plugins>
         </pluginManagement>
     </build>
+
+	<repositories>
+		<!-- override central definition to route requests via local proxy on nexus server -->
+		<repository>
+			<id>central</id>
+			<url>http://nexus.eclipseoptions.com/content/repositories/central</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<!-- for thirdparty dependencies not in central -->
+		<repository>
+			<id>eclipse-thirdparty</id>
+			<url>http://nexus.eclipseoptions.com/content/repositories/thirdparty</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<!-- for release versions of our own projects -->
+		<repository>
+			<id>eclipse-releases</id>
+			<url>http://nexus.eclipseoptions.com/content/repositories/eclipse</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<!-- for incremental snapshot versions of our own projects -->
+		<repository>
+			<id>snapshot</id>
+			<url>http://nexus.eclipseoptions.com/content/repositories/snapshot</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+		</repository>
+	</repositories>
 </project>
