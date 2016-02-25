@@ -8,9 +8,9 @@
     <version>1.16-SNAPSHOT</version>
 
     <scm>
-        <url>https://github.com/lukejackson/git-flow-release-test.git</url>
-        <connection>scm:git:https://github.com/lukejackson/git-flow-release-test.git</connection>
-        <developerConnection>scm:git:[fetch=]https://github.com/lukejackson/git-flow-release-test.git[push=]ssh://lukejackson@github.com/lukejackson/git-flow-release-test.git</developerConnection>
+        <url>https://github.com/cybermario/git-flow-release-test.git</url>
+        <connection>scm:git:https://github.com/cybermario/git-flow-release-test.git</connection>
+        <developerConnection>scm:git:[fetch=]https://github.com/cybermario/git-flow-release-test.git[push=]ssh://cybermario@github.com/cybermario/git-flow-release-test.git</developerConnection>
     </scm>
 
     <modules>
